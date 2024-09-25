@@ -1,0 +1,56 @@
+footer{
+    float: left;
+    background-color: var(--footer);
+    border-radius: 5px;
+    font-size: 20px;
+    height: 5vh;
+    width: 100%;
+    margin-top: 5px;
+    border: 2px solid var(--border);
+    font-family: Caveat-Medium;
+}
+
+footer table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+footer td{
+    width: 32%;
+}
+
+#right{
+    float: right;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+
+#left{
+    float: left;
+    vertical-align: middle;
+    margin: 8px;
+    text-align: center;
+}
+
+#left img{
+    width: 6%;
+    vertical-align: middle;
+    margin: auto;
+}
+
+footer a:link{
+    text-decoration: none;
+    color: black;
+
+}
+
+footer a:hover{
+    color: black;
+    font-family: Caveat;
+}
+
+footer a:visited{
+    color: black;
+    font-size: 27px;
+}

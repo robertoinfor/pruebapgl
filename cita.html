@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citas Sanabien.natur</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="contenedor">
+    <div w3-include-html="./partweb/header.html"></div>
+        <script src="./js/include-html.js"></script>
+    <div class="content">
+        <form enctype="multipart/form-data">
+            <div class="dockleft">
+                <label for="name">Nombre:</label>
+                <input type="text" name="name" id="name">
+                <br>
+                <label for="1sur">Primer apellido:</label>
+                <input type="text" name="1sur" id="1sur">
+                <br>
+                <label for="2sur">Segundo apellido:</label>
+                <input type="text" name="2sur" id="2sur">
+                <br>
+                <label for="date">Fecha de nacimiento:</label>
+                <input type="date" name="date" id="tdate">
+                <br>
+                <label for="tfn">Teléfono:</label>
+                <input type="text" name="tfn" id="ttfn">
+                <br>
+                <label for="sexo">Sexo:</label>
+                <input type="radio" name="tsexo" id="colores">Hombre
+                <input type="radio" name="tsexo" id="colores">Mujer
+                <input type="radio" name="tsexo" id="colores">Otro
+            </div>
+            <div class="dockright">
+
+            </div>
+            <div class="dockleft">
+            <p>
+            <input type="submit" value="Enviar cita">
+            <input type="reset" value="Borrar los datos">
+            </p>
+            </div>
+        </form>
+    </div>
+    <div w3-include-html="./partweb/footer.html"></div>
+</div>
+</body>
+</html>

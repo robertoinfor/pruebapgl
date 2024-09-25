@@ -1,0 +1,14 @@
+@font-face{
+    font-family: "Caveat";
+    src: url(/fonts/Caveat/Caveat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Caveat-Medium";
+    src: url(/fonts/Caveat/static/Caveat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Slab";
+    src: url(/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+}

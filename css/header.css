@@ -1,0 +1,40 @@
+header{
+    float: left;
+    background-color: var(--back);
+    border-radius: 5px;
+    font-size: 25px;
+    height: 13vh;
+    width: 100%;
+    border: 2px solid var(--border);
+    font-family: Caveat-Medium;
+}
+
+header img{
+    width: 75%;
+    float: right;
+    padding-right: 70px;
+}
+
+header table{
+    width: 100%;
+    padding: 10px;
+}
+
+#espaciado td{
+    width: 7%;
+}
+
+header a:link{
+    text-decoration: none;
+    color: black;
+}
+
+header a:visited{
+    color: black;
+}
+
+header a:hover{
+    font-family: Caveat;
+    color: #2E2E2D;
+    font-size: 27px;
+}
